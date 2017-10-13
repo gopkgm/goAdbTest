@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\installapk]
+@="install"
+"icon"="D:\\Android\\work\\install\\install.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\installapk\command]
+@="D:\\Android\\work\\install\\install.exe %1"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\installapk]
+@="install"
+"icon"="D:\\Android\\work\\install\\install.exe"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\installapk\command]
+@="D:\\Android\\work\\install\\install.exe -cd=%v."
